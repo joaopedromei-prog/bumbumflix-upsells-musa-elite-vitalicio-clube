@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-13T00:40:35-03:00",
+  "title": "Design System: Upsells Musa",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Papel Branco", "tonalRamp": ["oklch(15% 0.000 0.0)", "oklch(27% 0.000 0.0)", "oklch(39% 0.000 0.0)", "oklch(51% 0.000 0.0)", "oklch(63% 0.000 0.0)", "oklch(75% 0.000 0.0)", "oklch(87% 0.000 0.0)", "oklch(95% 0.000 0.0)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta", "tonalRamp": ["oklch(15% 0.000 0.0)", "oklch(27% 0.000 0.0)", "oklch(39% 0.000 0.0)", "oklch(51% 0.000 0.0)", "oklch(63% 0.000 0.0)", "oklch(75% 0.000 0.0)", "oklch(87% 0.000 0.0)", "oklch(95% 0.000 0.0)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Tinta Suave", "tonalRamp": ["oklch(15% 0.034 261.3)", "oklch(27% 0.034 261.3)", "oklch(39% 0.034 261.3)", "oklch(51% 0.034 261.3)", "oklch(63% 0.034 261.3)", "oklch(75% 0.034 261.3)", "oklch(87% 0.034 261.3)", "oklch(95% 0.034 261.3)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Tinta Atenuada", "tonalRamp": ["oklch(15% 0.033 256.6)", "oklch(27% 0.033 256.6)", "oklch(39% 0.033 256.6)", "oklch(51% 0.033 256.6)", "oklch(63% 0.033 256.6)", "oklch(75% 0.033 256.6)", "oklch(87% 0.033 256.6)", "oklch(95% 0.033 256.6)"] },
+      "line": { "role": "neutral", "displayName": "Linha de Papel", "tonalRamp": ["oklch(15% 0.013 255.5)", "oklch(27% 0.013 255.5)", "oklch(39% 0.013 255.5)", "oklch(51% 0.013 255.5)", "oklch(63% 0.013 255.5)", "oklch(75% 0.013 255.5)", "oklch(87% 0.013 255.5)", "oklch(95% 0.013 255.5)"] },
+      "line-soft": { "role": "neutral", "displayName": "Linha de Papel Suave", "tonalRamp": ["oklch(15% 0.009 247.9)", "oklch(27% 0.009 247.9)", "oklch(39% 0.009 247.9)", "oklch(51% 0.009 247.9)", "oklch(63% 0.009 247.9)", "oklch(75% 0.009 247.9)", "oklch(87% 0.009 247.9)", "oklch(95% 0.009 247.9)"] },
+      "musa-pink": { "role": "primary", "displayName": "Rosa Musa", "tonalRamp": ["oklch(15% 0.214 5.3)", "oklch(27% 0.214 5.3)", "oklch(39% 0.214 5.3)", "oklch(51% 0.214 5.3)", "oklch(63% 0.214 5.3)", "oklch(75% 0.214 5.3)", "oklch(87% 0.214 5.3)", "oklch(95% 0.214 5.3)"] },
+      "musa-pink-soft": { "role": "primary", "displayName": "Rosa Musa Suave", "tonalRamp": ["oklch(15% 0.028 342.3)", "oklch(27% 0.028 342.3)", "oklch(39% 0.028 342.3)", "oklch(51% 0.028 342.3)", "oklch(63% 0.028 342.3)", "oklch(75% 0.028 342.3)", "oklch(87% 0.028 342.3)", "oklch(95% 0.028 342.3)"] },
+      "musa-pink-deep": { "role": "primary", "displayName": "Rosa Musa Profundo", "tonalRamp": ["oklch(15% 0.199 4.0)", "oklch(27% 0.199 4.0)", "oklch(39% 0.199 4.0)", "oklch(51% 0.199 4.0)", "oklch(63% 0.199 4.0)", "oklch(75% 0.199 4.0)", "oklch(87% 0.199 4.0)", "oklch(95% 0.199 4.0)"] },
+      "value-yellow": { "role": "tertiary", "displayName": "Amarelo de Valor", "tonalRamp": ["oklch(15% 0.153 91.6)", "oklch(27% 0.153 91.6)", "oklch(39% 0.153 91.6)", "oklch(51% 0.153 91.6)", "oklch(63% 0.153 91.6)", "oklch(75% 0.153 91.6)", "oklch(87% 0.153 91.6)", "oklch(95% 0.153 91.6)"] },
+      "value-paper": { "role": "tertiary", "displayName": "Papel de Valor", "tonalRamp": ["oklch(15% 0.021 95.3)", "oklch(27% 0.021 95.3)", "oklch(39% 0.021 95.3)", "oklch(51% 0.021 95.3)", "oklch(63% 0.021 95.3)", "oklch(75% 0.021 95.3)", "oklch(87% 0.021 95.3)", "oklch(95% 0.021 95.3)"] },
+      "value-purple": { "role": "tertiary", "displayName": "Violeta de Fechamento", "tonalRamp": ["oklch(15% 0.247 293.0)", "oklch(27% 0.247 293.0)", "oklch(39% 0.247 293.0)", "oklch(51% 0.247 293.0)", "oklch(63% 0.247 293.0)", "oklch(75% 0.247 293.0)", "oklch(87% 0.247 293.0)", "oklch(95% 0.247 293.0)"] },
+      "action-green": { "role": "secondary", "displayName": "Verde de Ação", "tonalRamp": ["oklch(15% 0.116 152.8)", "oklch(27% 0.116 152.8)", "oklch(39% 0.116 152.8)", "oklch(51% 0.116 152.8)", "oklch(63% 0.116 152.8)", "oklch(75% 0.116 152.8)", "oklch(87% 0.116 152.8)", "oklch(95% 0.116 152.8)"] },
+      "action-green-light": { "role": "secondary", "displayName": "Verde de Ação Claro", "tonalRamp": ["oklch(15% 0.128 152.6)", "oklch(27% 0.128 152.6)", "oklch(39% 0.128 152.6)", "oklch(51% 0.128 152.6)", "oklch(63% 0.128 152.6)", "oklch(75% 0.128 152.6)", "oklch(87% 0.128 152.6)", "oklch(95% 0.128 152.6)"] },
+      "action-green-deep": { "role": "secondary", "displayName": "Verde de Ação Profundo", "tonalRamp": ["oklch(15% 0.100 153.0)", "oklch(27% 0.100 153.0)", "oklch(39% 0.100 153.0)", "oklch(51% 0.100 153.0)", "oklch(63% 0.100 153.0)", "oklch(75% 0.100 153.0)", "oklch(87% 0.100 153.0)", "oklch(95% 0.100 153.0)"] },
+      "success-line": { "role": "secondary", "displayName": "Linha de Aprovação", "tonalRamp": ["oklch(15% 0.051 163.1)", "oklch(27% 0.051 163.1)", "oklch(39% 0.051 163.1)", "oklch(51% 0.051 163.1)", "oklch(63% 0.051 163.1)", "oklch(75% 0.051 163.1)", "oklch(87% 0.051 163.1)", "oklch(95% 0.051 163.1)"] },
+      "success-paper": { "role": "secondary", "displayName": "Papel de Aprovação", "tonalRamp": ["oklch(15% 0.021 166.1)", "oklch(27% 0.021 166.1)", "oklch(39% 0.021 166.1)", "oklch(51% 0.021 166.1)", "oklch(63% 0.021 166.1)", "oklch(75% 0.021 166.1)", "oklch(87% 0.021 166.1)", "oklch(95% 0.021 166.1)"] },
+      "alert-red": { "role": "tertiary", "displayName": "Vermelho de Alerta", "tonalRamp": ["oklch(15% 0.202 29.2)", "oklch(27% 0.202 29.2)", "oklch(39% 0.202 29.2)", "oklch(51% 0.202 29.2)", "oklch(63% 0.202 29.2)", "oklch(75% 0.202 29.2)", "oklch(87% 0.202 29.2)", "oklch(95% 0.202 29.2)"] },
+      "alert-red-soft": { "role": "tertiary", "displayName": "Vermelho de Comparação", "tonalRamp": ["oklch(15% 0.208 25.3)", "oklch(27% 0.208 25.3)", "oklch(39% 0.208 25.3)", "oklch(51% 0.208 25.3)", "oklch(63% 0.208 25.3)", "oklch(75% 0.208 25.3)", "oklch(87% 0.208 25.3)", "oklch(95% 0.208 25.3)"] },
+      "alert-paper": { "role": "tertiary", "displayName": "Papel de Alerta", "tonalRamp": ["oklch(15% 0.031 17.7)", "oklch(27% 0.031 17.7)", "oklch(39% 0.031 17.7)", "oklch(51% 0.031 17.7)", "oklch(63% 0.031 17.7)", "oklch(75% 0.031 17.7)", "oklch(87% 0.031 17.7)", "oklch(95% 0.031 17.7)"] },
+      "demo-canvas": { "role": "neutral", "displayName": "Palco de Demonstração", "tonalRamp": ["oklch(15% 0.006 285.4)", "oklch(27% 0.006 285.4)", "oklch(39% 0.006 285.4)", "oklch(51% 0.006 285.4)", "oklch(63% 0.006 285.4)", "oklch(75% 0.006 285.4)", "oklch(87% 0.006 285.4)", "oklch(95% 0.006 285.4)"] },
+      "demo-surface": { "role": "neutral", "displayName": "Tela de Demonstração", "tonalRamp": ["oklch(15% 0.008 285.5)", "oklch(27% 0.008 285.5)", "oklch(39% 0.008 285.5)", "oklch(51% 0.008 285.5)", "oklch(63% 0.008 285.5)", "oklch(75% 0.008 285.5)", "oklch(87% 0.008 285.5)", "oklch(95% 0.008 285.5)"] },
+      "demo-line": { "role": "neutral", "displayName": "Linha de Demonstração", "tonalRamp": ["oklch(15% 0.016 285.3)", "oklch(27% 0.016 285.3)", "oklch(39% 0.016 285.3)", "oklch(51% 0.016 285.3)", "oklch(63% 0.016 285.3)", "oklch(75% 0.016 285.3)", "oklch(87% 0.016 285.3)", "oklch(95% 0.016 285.3)"] },
+      "demo-copy-muted": { "role": "neutral", "displayName": "Texto de Demonstração", "tonalRamp": ["oklch(15% 0.014 286.1)", "oklch(27% 0.014 286.1)", "oklch(39% 0.014 286.1)", "oklch(51% 0.014 286.1)", "oklch(63% 0.014 286.1)", "oklch(75% 0.014 286.1)", "oklch(87% 0.014 286.1)", "oklch(95% 0.014 286.1)"] },
+      "demo-pink": { "role": "primary", "displayName": "Rosa de Produto", "tonalRamp": ["oklch(15% 0.244 0.7)", "oklch(27% 0.244 0.7)", "oklch(39% 0.244 0.7)", "oklch(51% 0.244 0.7)", "oklch(63% 0.244 0.7)", "oklch(75% 0.244 0.7)", "oklch(87% 0.244 0.7)", "oklch(95% 0.244 0.7)"] },
+      "demo-pink-soft": { "role": "primary", "displayName": "Rosa de Produto Suave", "tonalRamp": ["oklch(15% 0.175 349.8)", "oklch(27% 0.175 349.8)", "oklch(39% 0.175 349.8)", "oklch(51% 0.175 349.8)", "oklch(63% 0.175 349.8)", "oklch(75% 0.175 349.8)", "oklch(87% 0.175 349.8)", "oklch(95% 0.175 349.8)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Abertura", "purpose": "Headline única no topo da carta." },
+      "headline": { "displayName": "Virada Editorial", "purpose": "Introduz uma nova etapa do argumento." },
+      "title": { "displayName": "Título de Bloco", "purpose": "Nomeia provas, passos, entregas e cartões." },
+      "body": { "displayName": "Conversa", "purpose": "Conduz a carta em tom íntimo e coloquial." },
+      "label": { "displayName": "Estado", "purpose": "Expõe status, metadados e avisos operacionais curtos." }
+    },
+    "shadows": [
+      { "name": "ambient-card", "value": "0 6px 20px rgba(0,0,0,.04)", "purpose": "Elevação discreta para cartões editoriais de prova e conteúdo." },
+      { "name": "action-rest", "value": "0 10px 24px rgba(15,23,42,.2)", "purpose": "Elevação base do CTA primário." },
+      { "name": "device", "value": "0 22px 46px rgba(0,0,0,.38)", "purpose": "Profundidade dos mockups de tela no palco escuro." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "0.15s ease", "purpose": "Deslocamento curto de pressão e resposta do CTA." },
+      { "name": "state-standard", "value": "0.2s ease", "purpose": "Cor, filtro, sombra e expansão de estados comuns." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Substitui animações e transições quando o sistema pede movimento reduzido." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "480px" },
+      { "name": "stack", "value": "560px" },
+      { "name": "carousel", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "CTA primário",
+      "kind": "button",
+      "refersTo": "cta-primary",
+      "description": "Ação afirmativa de largura total, usada depois que valor ou prova já foram estabelecidos.",
+      "html": "<a class=\"ds-cta-primary\" href=\"#oferta\">QUERO ESTA OFERTA</a>",
+      "css": ".ds-cta-primary { display:block; width:100%; padding:22px 24px; border:0; border-radius:14px; background:linear-gradient(180deg,var(--go-light),var(--go)); color:var(--bg); font-family:var(--font); font-size:clamp(1.0625rem,2.8vw,1.1875rem); font-weight:900; line-height:1.25; letter-spacing:.02em; text-align:center; text-decoration:none; cursor:pointer; box-shadow:0 10px 24px rgba(15,23,42,.2); transition:filter .2s ease,box-shadow .2s ease,transform .15s ease; } .ds-cta-primary:hover { filter:brightness(1.06); box-shadow:0 14px 30px rgba(15,23,42,.24); transform:translateY(-2px); } .ds-cta-primary:focus-visible { outline:3px solid var(--pink); outline-offset:3px; } .ds-cta-primary:active { transform:translateY(2px); box-shadow:0 6px 16px rgba(15,23,42,.2); } @media (prefers-reduced-motion:reduce) { .ds-cta-primary { transition-duration:.01ms; } }"
+    },
+    {
+      "name": "Barra de alerta",
+      "kind": "custom",
+      "refersTo": "alert-bar",
+      "description": "Aviso operacional crítico e persistente no topo da página.",
+      "html": "<div class=\"ds-alert-bar\" role=\"alert\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" aria-hidden=\"true\"><path d=\"M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z\"/><path d=\"M12 9v4m0 4h.01\"/></svg><span>Seu acesso está sendo liberado — não feche esta página</span></div>",
+      "css": ".ds-alert-bar { width:100%; padding:13px 16px; display:flex; align-items:center; justify-content:center; gap:9px; background:var(--alert); color:var(--bg); font-family:var(--font); } .ds-alert-bar svg { flex-shrink:0; } .ds-alert-bar span { font-size:clamp(.8rem,2.6vw,1rem); font-weight:800; letter-spacing:.04em; line-height:1.25; text-transform:uppercase; }"
+    },
+    {
+      "name": "Selo de compra aprovada",
+      "kind": "custom",
+      "refersTo": "approved-badge",
+      "description": "Confirma a transação anterior antes de introduzir a nova oferta.",
+      "html": "<span class=\"ds-approved-badge\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg>Compra do BumbumFlix aprovada</span>",
+      "css": ".ds-approved-badge { display:inline-flex; align-items:center; gap:8px; padding:8px 16px; border:1.5px solid var(--green-light); border-radius:999px; background:var(--green-bg); color:var(--go-dark); font-family:var(--font); font-size:.875rem; font-weight:800; line-height:1.25; letter-spacing:.02em; } .ds-approved-badge svg { flex-shrink:0; }"
+    },
+    {
+      "name": "Chamada de preço",
+      "kind": "card",
+      "refersTo": "price-callout",
+      "description": "Condensa condição, âncora, cashback e preço sem misturar escassez.",
+      "html": "<section class=\"ds-price-callout\" id=\"oferta\"><span class=\"ds-price-tag\">CONDIÇÃO ALUNA NOVA — SÓ AGORA</span><div class=\"ds-price-label\">Sua condição exclusiva de hoje:</div><div class=\"ds-price-old\">De R$ 437</div><div class=\"ds-cashback\">− Cashback de R$ 147 do seu BumbumFlix</div><div class=\"ds-price-new\"><small>12x de</small> R$ 30</div><div class=\"ds-price-cash\">ou <strong>R$ 290 à vista</strong></div></section>",
+      "css": ".ds-price-callout { width:100%; padding:36px 24px; border:2px solid var(--yellow); border-radius:20px; background:linear-gradient(135deg,var(--yellow-bg),#FEF3C7); color:var(--ink); font-family:var(--font); text-align:center; } .ds-price-tag { display:inline-block; margin-bottom:20px; padding:7px 16px; border-radius:999px; background:var(--pink); color:var(--bg); font-size:.8125rem; font-weight:800; letter-spacing:.1em; } .ds-price-label { font-size:1rem; font-weight:700; } .ds-price-old { color:var(--ink-muted); font-size:1.125rem; font-weight:600; text-decoration:line-through; } .ds-cashback { display:inline-block; margin:10px 0 6px; padding:6px 14px; border:1px solid var(--green-light); border-radius:999px; background:var(--green-bg); color:var(--go-dark); font-size:.95rem; font-weight:800; } .ds-price-new { margin-top:6px; color:var(--ink); font-size:clamp(3.5rem,14vw,5rem); font-weight:900; line-height:1; letter-spacing:-.035em; white-space:nowrap; } .ds-price-new small { color:var(--ink-soft); font-size:.34em; font-weight:800; letter-spacing:0; vertical-align:middle; } .ds-price-cash { margin-top:10px; color:var(--ink-soft); font-size:1.125rem; } .ds-price-cash strong { color:var(--ink); font-weight:800; }"
+    },
+    {
+      "name": "Painel de prova",
+      "kind": "card",
+      "refersTo": "proof-panel",
+      "description": "Mostra a entrega real ou uma demonstração marcada sem transformar exemplo em prova.",
+      "html": "<article class=\"ds-proof-panel\"><span class=\"ds-proof-label\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg>Como a entrega aparece</span><h3>Um plano que diz exatamente o que fazer</h3><p>Exemplo ilustrativo da organização. A entrega real deve ser individual.</p><div class=\"ds-proof-demo\"><div><strong>Etapa 01</strong><span>Orientação específica</span></div><div><strong>Etapa 02</strong><span>Alternativa equivalente</span></div></div></article>",
+      "css": ".ds-proof-panel { width:100%; padding:20px; border-radius:16px; background:var(--bg); color:var(--ink); font-family:var(--font); box-shadow:0 12px 34px rgba(26,26,26,.09); } .ds-proof-label { display:inline-flex; align-items:center; gap:7px; margin-bottom:12px; padding:6px 11px; border-radius:999px; background:var(--green-bg); color:var(--go-dark); font-size:.77rem; font-weight:900; letter-spacing:.06em; text-transform:uppercase; } .ds-proof-panel h3 { margin:0 0 8px; font-size:1.2rem; font-weight:900; line-height:1.3; } .ds-proof-panel p { color:var(--ink-soft); font-size:.97rem; line-height:1.6; } .ds-proof-demo { display:grid; gap:10px; margin-top:16px; padding:18px; border-radius:14px; background:#F8FAFC; } .ds-proof-demo div { display:flex; justify-content:space-between; gap:12px; padding:11px 0; border-bottom:1px solid var(--line); } .ds-proof-demo div:last-child { border-bottom:0; } .ds-proof-demo strong { color:var(--pink-dark); font-size:.82rem; } .ds-proof-demo span { color:var(--ink); font-size:.91rem; font-weight:700; }"
+    },
+    {
+      "name": "Caso editorial",
+      "kind": "card",
+      "refersTo": "case-story",
+      "description": "Organiza uma prova aprovada como contexto, ajuste e resultado, sem caixa ornamental.",
+      "html": "<article class=\"ds-case-story\"><header class=\"ds-case-head\"><span class=\"ds-case-tag\">CASO REAL</span><strong>Nome aprovado da aluna</strong></header><ol class=\"ds-case-steps\"><li><span>Onde ela travou</span><p>Contexto factual e aprovado entra aqui.</p></li><li><span>O ajuste</span><p>Explique a intervenção sem ampliar a alegação.</p></li><li class=\"ds-case-result\"><span>O resultado</span><p>Resultado comprovado, acompanhado da ressalva adequada.</p></li></ol></article>",
+      "css": ".ds-case-story { width:100%; color:var(--ink); font-family:var(--font); } .ds-case-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; } .ds-case-tag { padding:2px 8px; border-radius:4px; background:var(--pink); color:var(--bg); font-size:.6875rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; } .ds-case-steps { margin:0; padding:0; list-style:none; } .ds-case-steps li { position:relative; padding:0 0 20px 28px; } .ds-case-steps li::before { content:''; position:absolute; left:0; top:5px; width:12px; height:12px; border:3px solid var(--pink); border-radius:50%; background:var(--bg); } .ds-case-steps li::after { content:''; position:absolute; left:5px; top:21px; bottom:3px; width:2px; background:var(--pink-light); } .ds-case-steps li:last-child::after { display:none; } .ds-case-steps span { display:block; margin-bottom:3px; color:var(--pink); font-size:.72rem; font-weight:900; letter-spacing:.1em; text-transform:uppercase; } .ds-case-steps p { margin:0; color:var(--ink-soft); font-size:1rem; line-height:1.6; } .ds-case-result::before { background:var(--pink) !important; } .ds-case-result p { color:var(--pink-dark); font-weight:700; }"
+    },
+    {
+      "name": "Garantia",
+      "kind": "card",
+      "refersTo": "guarantee",
+      "description": "Reduz o risco com linguagem simples depois que o valor já foi compreendido.",
+      "html": "<section class=\"ds-guarantee\"><div class=\"ds-guarantee-seal\"><svg width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" aria-hidden=\"true\"><path d=\"M12 3 4.5 6v5.5c0 4.6 3.2 7.6 7.5 9.5 4.3-1.9 7.5-4.9 7.5-9.5V6L12 3Z\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg></div><h3>O risco é todo meu. Não é seu.</h3><p>Você tem 30 dias para decidir. Se a oferta não fizer sentido, siga o processo de reembolso informado.</p></section>",
+      "css": ".ds-guarantee { width:100%; padding:28px 24px; border:1.5px solid var(--green-light); border-radius:18px; background:var(--green-bg); color:var(--ink); font-family:var(--font); text-align:center; } .ds-guarantee-seal { display:grid; width:72px; height:72px; margin:0 auto 14px; place-items:center; border-radius:50%; background:linear-gradient(135deg,var(--go-light),var(--go)); color:var(--bg); box-shadow:0 8px 22px rgba(15,23,42,.18); } .ds-guarantee h3 { margin:0 0 10px; font-size:1.375rem; font-weight:900; } .ds-guarantee p { margin:0; color:var(--ink-soft); font-size:1rem; line-height:1.6; }"
+    },
+    {
+      "name": "Escassez",
+      "kind": "card",
+      "refersTo": "scarcity",
+      "description": "Expõe um limite confirmado e sua justificativa operacional.",
+      "html": "<section class=\"ds-scarcity\"><div class=\"ds-scarcity-count\">20<span>vagas restantes nessa condição</span></div><p>Use somente quando a capacidade e a condição comercial estiverem confirmadas.</p></section>",
+      "css": ".ds-scarcity { width:100%; padding:22px 24px; border:1.5px solid #FCA5A5; border-radius:16px; background:var(--red-light); color:var(--ink); font-family:var(--font); text-align:center; } .ds-scarcity-count { color:var(--alert); font-size:clamp(2.5rem,10vw,3.5rem); font-weight:900; line-height:1; letter-spacing:-.03em; } .ds-scarcity-count span { display:block; margin-top:6px; color:var(--ink); font-size:.35em; font-weight:800; line-height:1.25; letter-spacing:.04em; text-transform:uppercase; } .ds-scarcity p { margin:12px 0 0; color:var(--ink-soft); font-size:1rem; line-height:1.6; }"
+    },
+    {
+      "name": "Carrossel de telas do aplicativo",
+      "kind": "custom",
+      "refersTo": "app-screen-carousel",
+      "description": "Palco escuro para demonstrar telas reais; vira faixa horizontal navegável no celular.",
+      "html": "<section class=\"ds-app-showcase\" aria-label=\"Demonstração do aplicativo\"><h2>Você não precisa imaginar. O aplicativo já existe.</h2><p class=\"ds-carousel-hint\">Deslize para explorar as telas reais</p><div class=\"ds-app-grid\" role=\"region\" aria-label=\"Tour pelas telas do aplicativo\" tabindex=\"0\"><figure class=\"ds-app-screen\"><div class=\"ds-screen-preview\"><strong>INÍCIO</strong><span>Próximo passo</span></div><figcaption>Seu centro de comando<span>Atividade e progresso</span></figcaption></figure><figure class=\"ds-app-screen\"><div class=\"ds-screen-preview\"><strong>EXPLORAR</strong><span>Programas</span></div><figcaption>Todos os programas<span>Biblioteca organizada</span></figcaption></figure><figure class=\"ds-app-screen\"><div class=\"ds-screen-preview\"><strong>EVOLUÇÃO</strong><span>Medidas e fotos</span></div><figcaption>Sua evolução em dados<span>Constância e registros</span></figcaption></figure></div></section>",
+      "css": ".ds-app-showcase { width:100%; padding:58px 24px 64px; overflow:hidden; background:#050507; color:var(--bg); font-family:var(--font); } .ds-app-showcase h2 { max-width:720px; margin:0 auto 34px; font-size:clamp(1.75rem,5vw,3rem); font-weight:900; line-height:1.08; text-align:center; } .ds-carousel-hint { display:none; color:#D4D4D8; font-size:.82rem; font-weight:700; text-align:center; } .ds-app-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; max-width:980px; margin:0 auto; align-items:start; } .ds-app-grid:focus-visible { outline:3px solid #F472B6; outline-offset:5px; border-radius:10px; } .ds-app-screen { position:relative; margin:0; overflow:hidden; border:1px solid #292932; border-radius:28px; background:#101014; box-shadow:0 22px 46px rgba(0,0,0,.38); } .ds-app-screen::before { content:''; position:absolute; z-index:2; top:9px; left:50%; width:60px; height:14px; transform:translateX(-50%); border-radius:999px; background:#030305; } .ds-screen-preview { display:grid; min-height:340px; padding:56px 20px 24px; align-content:start; gap:8px; background:linear-gradient(155deg,#1D1D26,#101014 58%,rgba(247,37,133,.22)); } .ds-screen-preview strong { color:#F72585; font-size:.78rem; letter-spacing:.1em; } .ds-screen-preview span { color:var(--bg); font-size:1.35rem; font-weight:900; } .ds-app-screen figcaption { padding:13px 14px 15px; color:var(--bg); font-size:.83rem; font-weight:800; line-height:1.3; } .ds-app-screen figcaption span { display:block; margin-top:3px; color:#B8B8C2; font-size:.75rem; font-weight:600; } @media (max-width:760px) { .ds-carousel-hint { display:flex; justify-content:center; margin:-8px 0 16px; } .ds-app-grid { display:flex; overflow-x:auto; padding:2px 2px 18px; scroll-snap-type:x mandatory; scrollbar-width:thin; } .ds-app-screen { flex:0 0 240px; scroll-snap-align:start; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Carta da Musa",
+    "overview": "O sistema transforma resposta direta em uma carta íntima: uma coluna clara e estreita conduz a leitora por reconhecimento, mecanismo, demonstração, prova, valor e decisão. A voz visual é acolhedora, franca e feminina sem infantilização; a energia comercial nasce da progressão e da clareza, nunca de enfeite ou pressão prematura.\n\nA base permanece editorial e luminosa. Rosa marca promessas e ideias-chave, verde confirma aprovação e ação, amarelo enquadra valor e vermelho sinaliza somente alerta ou escassez. Superfícies escuras são uma exceção funcional para mostrar biblioteca, produto ou aplicativo; não são um tema alternativo para a carta.",
+    "keyCharacteristics": [
+      "Leitura concentrada em uma coluna de 640px, otimizada primeiro para celular.",
+      "Prova e demonstração aparecem antes da pressão comercial.",
+      "Inter sustenta toda a hierarquia, da conversa ao CTA.",
+      "Blocos claros e suavemente arredondados herdam a familiaridade do controle.",
+      "Contraste alto, foco visível e movimento reduzido são invariantes."
+    ],
+    "rules": [
+      { "name": "The Four Signals Rule", "body": "Rosa enfatiza promessas e chaves; verde fica reservado a aprovação e ação; amarelo enquadra valor; vermelho aparece apenas em alerta ou escassez.", "section": "colors" },
+      { "name": "The Dark Demonstration Rule", "body": "Superfícies escuras só entram quando o produto, a biblioteca ou o aplicativo precisam ser demonstrados.", "section": "colors" },
+      { "name": "The Inter Is the Voice Rule", "body": "Inter é uma exigência do controle e deve permanecer em todas as páginas e componentes, com pesos de 400 a 900 carregados sob demanda.", "section": "typography" },
+      { "name": "The No Eyebrow Rule", "body": "A hierarquia começa pela mensagem, não por rótulos decorativos acima do título.", "section": "typography" },
+      { "name": "The Proof Before Pressure Rule", "body": "Demonstre o mecanismo e a entrega antes de intensificar preço, CTA ou escassez.", "section": "layout" },
+      { "name": "The Soft Lift Rule", "body": "Sombras são difusas e funcionais; nunca use sombra dura, glow decorativo ou elevação em todos os blocos.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do preserve alto contraste, foco visível, HTML semântico e respeito a `prefers-reduced-motion`.",
+      "Do mantenha Inter, a coluna de 640px e o fluxo progressivo de carta íntima.",
+      "Do use ícones SVG simples quando um símbolo realmente melhora a compreensão.",
+      "Do identifique demonstrações ilustrativas e use somente provas, números e condições comerciais confirmados.",
+      "Do apresente cada variante como uma oferta única e fácil de compreender."
+    ],
+    "donts": [
+      "Don't use eyebrows, emoji como ícone, pulse, glow decorativo ou sombra dura.",
+      "Don't troque a semântica cromática entre rosa, verde, amarelo e vermelho.",
+      "Don't invente dados pessoais, depoimentos, métricas, histórico, atualizações ou alegações de resultado.",
+      "Don't descreva uma oferta unificada como combo, pacote ou soma de produtos.",
+      "Don't use superfícies escuras fora de demonstrações reais de produto, biblioteca ou aplicativo."
+    ]
+  }
+}

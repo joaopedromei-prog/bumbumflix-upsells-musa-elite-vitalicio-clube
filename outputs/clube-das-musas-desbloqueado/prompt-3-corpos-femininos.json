@@ -1,0 +1,77 @@
+{
+  "objective": "Criar uma ilustração editorial e didática mostrando três tipos diferentes de corpos femininos adultos, vistos de costas, para explicar visualmente por que cada corpo precisa de um treino personalizado.",
+  "prompt": "Ilustração horizontal limpa, didática e cartoonizada de três mulheres adultas diferentes vistas de costas, alinhadas lado a lado e com o corpo enquadrado da parte inferior das costas até o meio das coxas. À esquerda, uma mulher adulta jovem, magra, com quadril estreito e glúteos com pouco volume. No centro, uma mulher adulta madura, entre 50 e 60 anos, com cintura e glúteos naturais, leve flacidez e distribuição de volume realista. À direita, uma mulher adulta com corpo mais curvilíneo, quadril mais largo e glúteos mais arredondados. Todas usam shorts fitness discretos, lisos e diferentes entre si, com cobertura completa. Criar diversidade corporal natural, respeitosa e sem hierarquia de melhor ou pior corpo. Entre a mulher da esquerda e a mulher do centro, inserir uma faixa tipográfica curta, visualmente ancorada às duas figuras por uma linha fina com duas pontas ou pequenas setas, contendo exatamente o texto em português: ‘É DIFERENTE DE’. Repetir o mesmo elemento entre a mulher do centro e a mulher da direita, novamente com o texto exato: ‘É DIFERENTE DE’. As duas frases devem estar em letras maiúsculas, perfeitamente legíveis, em rosa magenta escuro, com fonte sans-serif forte e limpa. As faixas precisam funcionar como conectores visuais entre os corpos, sem parecer legendas soltas e sem cobrir as figuras. Estilo de infográfico editorial contemporâneo inspirado em ilustrações médicas simplificadas: formas vetoriais suaves, contornos finos, cores chapadas, sombreamento muito sutil, anatomia simplificada, acabamento elegante e amigável. Composição equilibrada, muito espaço em branco, figuras do mesmo tamanho visual e separadas uniformemente. Fundo totalmente branco puro. Não inserir nenhum outro texto além das duas ocorrências de ‘É DIFERENTE DE’. Sem marca, sem logotipo e sem elementos decorativos desnecessários.",
+  "visual_reference": {
+    "use": "Apenas como referência de linguagem visual: infográfico simples, corpos vistos de costas, formas limpas, cores chapadas e leitura imediata.",
+    "avoid_copying": "Não copiar logotipo, tipografia, textos, cores exatas, roupas, linhas tracejadas ou composição idêntica da imagem de referência."
+  },
+  "subjects": [
+    {
+      "position": "left",
+      "description": "mulher adulta jovem e magra, quadril estreito, pouco volume nos glúteos, postura neutra"
+    },
+    {
+      "position": "center",
+      "description": "mulher adulta madura de 50 a 60 anos, corpo natural, leve flacidez e distribuição de volume realista"
+    },
+    {
+      "position": "right",
+      "description": "mulher adulta curvilínea, quadril mais largo, glúteos mais arredondados, postura neutra"
+    }
+  ],
+  "palette": {
+    "skin_tones": "três tons de pele diferentes e naturais",
+    "clothing": ["rosa magenta", "amarelo quente", "verde petróleo"],
+    "outlines": "marrom escuro suave, nunca preto pesado",
+    "background": "#FFFFFF"
+  },
+  "composition": {
+    "orientation": "landscape",
+    "aspect_ratio": "5:3",
+    "camera": "straight-on back view",
+    "framing": "lower back to mid-thigh",
+    "spacing": "three figures evenly spaced with enough room for the two anchored text connectors",
+    "text_connectors": [
+      {
+        "position": "between the left and center figures",
+        "exact_text": "É DIFERENTE DE",
+        "anchoring": "connected to both neighboring figures by a thin horizontal line with two arrowheads"
+      },
+      {
+        "position": "between the center and right figures",
+        "exact_text": "É DIFERENTE DE",
+        "anchoring": "connected to both neighboring figures by a thin horizontal line with two arrowheads"
+      }
+    ],
+    "hierarchy": "all three figures have equal visual importance"
+  },
+  "negative_prompt": [
+    "photorealism",
+    "before and after transformation",
+    "sexualized pose",
+    "nudity",
+    "thong or lingerie",
+    "minor or teenage appearance",
+    "exaggerated anatomy",
+    "extreme obesity or extreme thinness",
+    "body shaming",
+    "medical pathology",
+    "any text other than the two exact phrases É DIFERENTE DE",
+    "misspelled Portuguese text",
+    "floating captions disconnected from the figures",
+    "logo",
+    "watermark",
+    "measurement lines",
+    "dashed outlines",
+    "busy background",
+    "gradient background",
+    "3D render",
+    "anime style"
+  ],
+  "output": {
+    "format": "PNG",
+    "background": "solid white",
+    "recommended_size": "2000x1200",
+    "quality": "high resolution, crisp edges, ready for a sales page"
+  }
+}

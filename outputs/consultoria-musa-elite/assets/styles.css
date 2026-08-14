@@ -1085,6 +1085,17 @@ strong { font-weight: 700; }
   font-style: normal;
 }
 
+.body-types-visual {
+  width: 100%;
+  margin: 30px auto 8px;
+}
+
+.body-types-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero-support {
   max-width: 560px;
   margin: 0 auto 22px;

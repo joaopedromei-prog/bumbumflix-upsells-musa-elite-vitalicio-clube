@@ -1238,7 +1238,7 @@ strong { font-weight: 700; }
 
 .expert-card {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   align-items: center;
   margin: 28px 0;
@@ -1247,7 +1247,7 @@ strong { font-weight: 700; }
   background: var(--line-soft);
 }
 
-.expert-photo { display: block; width: 180px; height: auto; border-radius: 14px; object-fit: cover; }
+.expert-photo { display: block; width: 100%; height: auto; border-radius: 14px; object-fit: cover; }
 .expert-card h3 { margin: 0 0 5px; font-size: 1.2rem; font-weight: 900; }
 .expert-card p { margin: 0; color: var(--ink-soft); font-size: .94rem; line-height: 1.55; }
 
@@ -1513,8 +1513,7 @@ strong { font-weight: 700; }
   .mechanism-link { height: 36px; transform: rotate(90deg); }
   .product-mark { grid-template-columns: 82px 1fr; gap: 15px; padding: 16px; }
   .product-mark img { width: 82px; height: 82px; }
-  .expert-card { grid-template-columns: 1fr; gap: 16px; padding: 16px; }
-  .expert-photo { width: 100%; }
+  .expert-card { gap: 16px; padding: 16px; }
   .access-compare { grid-template-columns: 1fr; }
   .timeline { gap: 5px; }
   .timeline-stop strong { font-size: .74rem; }
